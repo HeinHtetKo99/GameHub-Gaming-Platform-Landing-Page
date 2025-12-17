@@ -1,0 +1,233 @@
+ body {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     background-color: #1a1a2e;
+     color: #dfe6e9;
+ }
+
+ .navbar {
+     background-color: #1a1a2e;
+ }
+
+ .navbar-brand {
+     font-weight: bold;
+     color: #6c5ce7 !important;
+     font-size: 1.8rem;
+ }
+
+ .nav-link {
+     color: #dfe6e9 !important;
+     font-weight: 500;
+     margin: 0 10px;
+ }
+
+ .nav-link:hover,
+ .nav-link.active {
+     color: #6c5ce7 !important;
+ }
+
+ .hero-section {
+     background: linear-gradient(rgba(26, 26, 46, 0.8), rgba(26, 26, 46, 0.9)),
+         url('./images/unplash.jpg');
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+ }
+
+ .hero-title {
+     font-size: 3.5rem;
+     font-weight: 800;
+     margin-bottom: 1.5rem;
+     color: #BC13FE;
+ }
+
+ .hero-subtitle {
+     font-size: 1.2rem;
+     margin-bottom: 2rem;
+ }
+
+ .btn-primary {
+     background-color: #6c5ce7;
+     border: none;
+     padding: 12px 30px;
+     font-weight: 600;
+     border-radius: 30px;
+ }
+
+ .btn-primary:hover {
+     background-color: #a29bfe;
+     transform: translateY(-3px);
+ }
+
+ .section-title {
+     font-size: 2.5rem;
+     font-weight: 700;
+     margin-bottom: 3rem;
+     text-align: center;
+ }
+
+ .game-card {
+     background: rgba(45, 52, 54, 0.7);
+     border-radius: 15px;
+     overflow: hidden;
+     margin-bottom: 30px;
+     border: 1px solid rgba(108, 92, 231, 0.2);
+ }
+
+ .game-card:hover {
+     transform: translateY(-10px);
+ }
+
+
+ .game-img {
+     height: 200px;
+     background-size: cover;
+     background-position: center;
+ }
+
+ .game-content {
+     padding: 20px;
+ }
+
+ .game-title {
+     font-size: 1.3rem;
+     font-weight: 600;
+     margin-bottom: 10px;
+ }
+
+ .game-description {
+     color: #b2bec3;
+     font-size: 0.9rem;
+     margin-bottom: 15px;
+ }
+
+ .feature-box {
+     text-align: center;
+     padding: 30px 20px;
+     border-radius: 15px;
+     background: rgba(45, 52, 54, 0.7);
+     margin-bottom: 30px;
+     border: 1px solid rgba(108, 92, 231, 0.2);
+ }
+
+ .feature-icon {
+     font-size: 2.5rem;
+     color: #6c5ce7;
+     margin-bottom: 20px;
+ }
+
+ .news-date {
+     color: #6c5ce7;
+     font-size: 0.9rem;
+     margin-bottom: 10px;
+ }
+
+ .footer {
+     background-color: rgba(26, 26, 46, 0.95);
+     padding: 60px 0 30px;
+     margin-top: 60px;
+ }
+
+ .footer-heading {
+     font-size: 1.2rem;
+     font-weight: 600;
+     margin-bottom: 20px;
+     color: #6c5ce7;
+ }
+
+ .footer-links a {
+     display: block;
+     color: #dfe6e9;
+     margin-bottom: 10px;
+     text-decoration: none;
+ }
+
+ .footer-links a:hover {
+     color: #6c5ce7;
+ }
+
+ .social-icons a {
+     display: inline-block;
+     width: 40px;
+     height: 40px;
+     background: rgba(108, 92, 231, 0.2);
+     border-radius: 50%;
+     text-align: center;
+     line-height: 40px;
+     margin-right: 10px;
+     color: #dfe6e9;
+ }
+
+ .social-icons a:hover {
+     background: #6c5ce7;
+ }
+
+ .copyright {
+     text-align: center;
+     padding-top: 30px;
+     margin-top: 30px;
+     border-top: 1px solid rgba(255, 255, 255, 0.1);
+     color: #b2bec3;
+     font-size: 0.9rem;
+ }
+
+ .progress {
+     height: 8px;
+     background-color: rgba(15, 240, 252, 0.7);
+     margin-bottom: 20px;
+     border-radius: 10px;
+ }
+
+ .progress-bar {
+     background-color: #BC13FE;
+     border-radius: 10px;
+ }
+
+ .skill-name {
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 5px;
+ }
+
+ @media screen and (max-width:550px) {
+     #header form {
+         width: 280px;
+     }
+ }
+
+ @media screen and (max-width:768px) {
+     #header form {
+         width: 320px;
+     }
+ }
+
+ @media screen and (max-width:992px) {
+     #header form {
+         width: 360px;
+     }
+ }
+
+ .slideObject {
+     visibility: hidden;
+ }
+
+ .slide {
+     visibility: visible;
+     animation-name: slideDown;
+     animation-duration: 1s;
+     -webkit-animation-name: slideDown;
+     -webkit-animation-duration: 1s;
+ }
+
+ @keyframes slideDown {
+     0% {
+         opacity: 0;
+         transform: translateY(-70%);
+     }
+
+     100% {
+         opacity: 1;
+         transform: translateX(0%);
+     }
+ }

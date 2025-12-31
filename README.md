@@ -10,4 +10,6 @@ This project focuses on clean UI, smooth animations, and a professional layout s
 - **Bootstrap 5** – Responsive grid & components  
 - **jQuery** – Scroll animations & interactions  
 - **Font Awesome** – Icons  
-- **Google Fonts** – Lato & Montserrat  
+- **Google Fonts** – Lato & Montserrat
+  
+View Project: [https://heinhtetko99.github.io/GameHub-Gaming-Platform-Landing-Page/]
